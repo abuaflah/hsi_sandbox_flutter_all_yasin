@@ -1,7 +1,5 @@
-// pertemuan 5
-
 import 'package:flutter/material.dart';
-import 'pertemuan_5/student_list_screen.dart';
+import 'pertemuan_6/screens/login_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -13,11 +11,11 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Daftar Siswa',
+      title: 'Login App',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: const StudentListScreen(),
+      home: const LoginScreen(),
     );
   }
 }
